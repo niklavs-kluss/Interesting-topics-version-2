@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.2rem;
+}
+.header {
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+  color: black;
+}
+.box-1 {
+  border: black solid 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+  background-color: lightblue;
+}
+.text-1 {
+  border: black solid 1px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.image-1 {
+  border: black solid 1px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.box-2 {
+  border: black solid 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+  background-color: lightcoral;
+}
+.text-2 {
+  border: black solid 1px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.image-2 {
+  border: black solid 1px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.box-3 {
+  border: black solid 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+  background-color: lightgreen;
+}
+.text-3 {
+  border: black solid 1px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.image-3 {
+  border: black solid 1px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.box-4 {
+  border: black solid 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 20px;
+  background-color: lightsalmon;
+}
+.text-4 {
+  border: black solid 1px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.image-4 {
+  border: black solid 1px;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+@media (max-width: 460px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  .box-1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .text-1 {
+    grid-column: 1/1;
+    grid-row: 2/3;
+  }
+  .image-1 {
+    grid-column: 1/1;
+    grid-row: 1/2;
+  }
+}

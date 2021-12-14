@@ -1,0 +1,6 @@
+Doma ir izmantot CSS grid, lai izveidotu lapu ar dažādiem tematiem, kas man interesē. 
+Plāns:
+1. Uzstādu virsrakstu, aprakstu, nav bar. 
+2. Izveidoju konteinera/ css grid ietvaru vienam tematam. 
+3. Veidoju tik šādus konteinerus cik ir nepieciešams.
+4. Uztaisu footer.
